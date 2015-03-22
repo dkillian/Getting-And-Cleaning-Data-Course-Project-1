@@ -1,13 +1,15 @@
 # Getting And Cleaning Data: Course Project
 ## Introduction
 This repository contains the required files for this project.
-The objective of the run_analysis.R script is to download and tidy the datasets provided by UCI on the activity data collected from the accelerometers from the Samsung Galaxy S smartphone worn by 30 volunteers. The tidy dataset can then be used for further analysis
+The objective of the run_analysis.R script is to download and tidy the datasets provided by UCI on the activity data collected from the accelerometers from the Samsung Galaxy S smartphone worn by 30 volunteers. The tidy dataset can then be used for further analysis.
+
+Further information on the project can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 ## Requirements
 1. The run_analysis.R code is written assuming the UCI HAR Dataset is downloaded and data files are extracted as "UCI HAR Dataset" into the working directory as below:
-setwd("/Users/Sarah/Documents/datasciencecourse")
-download.file(url, destfile = "./Dataset.zip", method = "curl")
-unzip("./Dataset.zip", exdir = ".")
+ setwd("/Users/Sarah/Documents/datasciencecourse")  
+ download.file(url, destfile = "./Dataset.zip", method = "curl")  
+ unzip("./Dataset.zip", exdir = ".")  
 
 2. The run_analysis.R code employed the use of the following packages that need to be installed:
   *dplyr package 
