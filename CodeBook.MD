@@ -17,30 +17,31 @@ The following data sets were used to arrive at a final combined single dataset.
 | ------------- |:-------------:| -----:|-----:|
 | finaldata      | subject_data | y_data |x_data  |
 
-## *Final dataset*
+## Final dataset
 For the purposes of this analysis, the single dataset (finaldata) was cleaned up to include features on the mean and standard deviation for each of the following measurements:  
-  *tBodyAcc-XYZ  
-  *tGravityAcc-XYZ  
-  *tBodyAccJerk-XYZ  
-  *tBodyGyro-XYZ  
-  *tBodyGyroJerk-XYZ  
-  *tBodyAccMag  
-  *tGravityAccMag  
-  *tBodyAccJerkMag  
-  *tBodyGyroMag  
-  *tBodyGyroJerkMag  
-  *fBodyAcc-XYZ  
-  *fBodyAccJerk-XYZ  
-  *fBodyGyro-XYZ  
-  *fBodyAccMag  
-  *fBodyAccJerkMag  
-  *fBodyGyroMag  
-  *fBodyGyroJerkMag  
-  
+
+  * tBodyAcc-XYZ  
+  * tGravityAcc-XYZ  
+  * tBodyAccJerk-XYZ  
+  * tBodyGyro-XYZ  
+  * tBodyGyroJerk-XYZ  
+  * tBodyAccMag  
+  * tGravityAccMag  
+  * tBodyAccJerkMag  
+  * tBodyGyroMag  
+  * tBodyGyroJerkMag  
+  * fBodyAcc-XYZ  
+  * fBodyAccJerk-XYZ  
+  * fBodyGyro-XYZ  
+  * fBodyAccMag  
+  * fBodyAccJerkMag  
+  * fBodyGyroMag  
+  * fBodyGyroJerkMag  
+   
 The mean and standard deviation criteria was taken to include the above measurements that had the following appended:
   * Features with -mean() and -std()
   * Features with -meanFreq(): this was included as this measurement is a weighted average of the frequency components to obtain a mean frequency; hence is relevant to the analysis of means..  
 
-_Total number of features selected was 79. Total columns for the finaldata was 81 including "activity" and "subject" columns._
+__Total number of features selected was 79. Total columns for the finaldata was 81 including "activity" and "subject" columns.__
 
 
