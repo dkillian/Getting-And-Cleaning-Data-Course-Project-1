@@ -6,10 +6,10 @@ The objective of the run_analysis.R script is to download and tidy the datasets 
 Further information on the project can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 ## Requirements
-1. The run_analysis.R code is written assuming the UCI HAR Dataset is downloaded and data files are extracted as "UCI HAR Dataset" into the working directory as below:  
- setwd("/Users/Sarah/Documents/datasciencecourse")  
- download.file(url, destfile = "./Dataset.zip", method = "curl")  
- unzip("./Dataset.zip", exdir = ".")  
+1. The run_analysis.R code is written assuming the UCI HAR Dataset is downloaded and data files are extracted as "UCI HAR Dataset" into the working directory as illustrated below:  
+ > setwd("<your working directory here>")  
+ > download.file(url, destfile = "./Dataset.zip", method = "curl")  
+ > unzip("./Dataset.zip", exdir = ".")  
 
 2. The run_analysis.R code employed the use of the following packages that need to be installed:
   *dplyr package 
