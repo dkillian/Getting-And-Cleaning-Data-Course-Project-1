@@ -42,7 +42,7 @@ The mean and standard deviation criteria was taken to include the above measurem
   * Features with -mean() and -std()
   * Features with -meanFreq(): this was included as this measurement is a weighted average of the frequency components to obtain a mean frequency; hence is assessed to be relevant to the analysis of means.
 
-__Total number of features selected was 79. __
+__Total number of features selected was 79.__  
 __Total columns for the finaldata was 81, including "activity" and "subject" columns.__
 
 
