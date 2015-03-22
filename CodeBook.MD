@@ -17,7 +17,7 @@ The following data sets were used to arrive at a final combined single dataset.
 | ------------- |:-------------:| -----:|-----:|
 | finaldata      | subject_data | y_data |x_data  |
 
-## *Final dataset
+## *Final dataset*
 For the purposes of this analysis, the single dataset (finaldata) was cleaned up to include features on the mean and standard deviation for each of the following measurements:  
 *tBodyAcc-XYZ  
 *tGravityAcc-XYZ  
@@ -41,6 +41,6 @@ The mean and standard deviation criteria was taken to include the above measurem
 * Features with -mean() and -std()
 * Features with -meanFreq(): this was included as this measurement is a weighted average of the frequency components to obtain a mean frequency; hence is relevant to the analysis of means..  
 
-*Total number of features selected was 79. Total columns for the finaldata was 81 including "activity" and "subject" columns. *
+**Total number of features selected was 79. Total columns for the finaldata was 81 including "activity" and "subject" columns. **
 
 
