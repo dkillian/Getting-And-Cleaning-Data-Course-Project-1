@@ -19,7 +19,7 @@ Further information on the project can be found [here](http://archive.ics.uci.ed
 The following files within the UCI HAR Dataset are used, and are related in the following ways:
 * Data: X_test.txt, X_train.txt files are combined row wise to form the main body of data showing the readings of each feature
 * Activities: Y_test.txt, Y_train.txt files are combined row wise to form the respective numerical labels of the 6 activities 
-* Activity Descriptions: activity_labels.txt link a descriptive activity to each numerical identifier in the combined y_data (1 WALKING, 2 WALKING_UPSTAIRS, 3 WALKING_DOWNSTAIRS, 4 SITTING, 5 STANDING, 6 LAYING) 
+* Activity Descriptions: activity_labels.txt is used to link a descriptive activity to each numerical identifier in the combined y_data (1 WALKING, 2 WALKING_UPSTAIRS, 3 WALKING_DOWNSTAIRS, 4 SITTING, 5 STANDING, 6 LAYING) 
 * Subjects: subject_test.txt, subject_train.txt are combined row wise to form the identifying number of each of the 30 volunteers
 * Features: features.txt is used to identify the descriptive labels of what Data is measuring (there are 561 different measurements in the original data)
 
