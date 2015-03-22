@@ -6,19 +6,18 @@ The original dataset (zip) can be found [here](https://d396qusza40orc.cloudfront
 ## Repurposed Data
 The following data sets were used to arrive at a final combined single dataset.
 ### *Combining data*
-| Combined  | Test          | Train  |
+| Combined (10299 obs.) | Test (2947 obs.)  | Train (7352 obs.) |
 | ------------- |:-------------:| -----:|
 | x_data   | x_test | x_train |
 | y_data     | y_test      |   y_train |
 | subject_data | subject_test    |    subject_train |
-| 10299 obs. | 2947 obs.  |  7352 obs. |
+
 
 
 ### *Single dataset*
-| Final  | Col1= activity | Col2 = subject | Col3:563 = list of 561 features |
+| Final (563 variables) | 1 variable = "activity" | 1 variable = "subject" | 561 variables = list of 561 features |
 | ------------- |:-------------:| -----:|-----:|
 | finaldata      | subject_data | y_data |x_data  |
-| 563 variables | 1 variable   |  1 variable | 561 variables |
 
 
 ## Final dataset
