@@ -23,6 +23,14 @@ The following files within the UCI HAR Dataset are used, and are related in the 
 * Subjects: subject_test.txt, subject_train.txt are combined row wise to form the identifying number of each of the 30 volunteers
 * Features: features.txt is used to identify the descriptive labels of what Data is measuring (there are 561 different measurements in the original data)
 
+
+## Mean and Standard Deviation
+For the purposes of this analysis, the measurements on the mean and standard deviation for each measurement was taken to include:
+* Features with -mean() and -std()
+* Features with -meanFreq(): this was included as this measurement is a weighted average of the frequency components to obtain a mean frequency; hence is relevant to the analysis of means.
+Total number of features selected was 79.
+
+## CodeBook
 Refer to CodeBook.md for detailed explanation of variables.  
 
 
