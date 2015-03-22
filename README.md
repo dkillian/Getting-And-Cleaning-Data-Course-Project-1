@@ -7,7 +7,7 @@ Further information on the project can be found [here](http://archive.ics.uci.ed
 
 ## Requirements
 1. The run_analysis.R code is written assuming the UCI HAR Dataset is downloaded and data files are extracted as "UCI HAR Dataset" into the working directory as illustrated below:  
- > setwd("<your working directory here>")  
+ > setwd("your working directory here")  
  > download.file(url, destfile = "./Dataset.zip", method = "curl")  
  > unzip("./Dataset.zip", exdir = ".")  
 
