@@ -3,10 +3,10 @@
 This repository contains the required files for this project.
 The objective of the run_analysis.R script is to download and tidy the datasets provided by UCI on the activity data collected from the accelerometers from the Samsung Galaxy S smartphone worn by 30 volunteers. The tidy dataset can then be used for further analysis.
 
-Further information on the project can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+Further information on the project can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 ## Requirements
-1. The run_analysis.R code is written assuming the UCI HAR Dataset is downloaded and data files are extracted as "UCI HAR Dataset" into the working directory as below:
+1. The run_analysis.R code is written assuming the UCI HAR Dataset is downloaded and data files are extracted as "UCI HAR Dataset" into the working directory as below:  
  setwd("/Users/Sarah/Documents/datasciencecourse")  
  download.file(url, destfile = "./Dataset.zip", method = "curl")  
  unzip("./Dataset.zip", exdir = ".")  
@@ -22,7 +22,9 @@ The following files within the UCI HAR Dataset are used, and are related in the 
 * Subjects: subject_test.txt, subject_train.txt are combined row wise to form the identifying number of each of the 30 volunteers
 * Features: features.txt is used to identify the descriptive labels of what Data is measuring (there are 561 different measurements in the original data)
 
-Refer to CodeBook.md for detailed explanation of variables
+Refer to CodeBook.md for detailed explanation of variables.  
+
+
 
 
 
